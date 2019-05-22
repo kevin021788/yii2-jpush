@@ -1,0 +1,32 @@
+{
+	"name": "kevin021788/yii2-jpush",
+	"description": "jpush",
+	"homepage": "https://github.com/kevin021788/yii2-jpush",
+	"keywords": [
+		"jpush",
+	],
+	"minimum-stability": "dev",
+	"authors": [ 
+		{
+			"name": "kevin zeng",
+			"email": "kevin0217@126.com",
+			"homepage": "https://github.com/kevin021788",
+			"role": "Developer"
+		}
+	],
+	"license": "MIT",
+	"require": {
+		"jpush/jpush": "v3.3.8"
+	},
+	"autoload": {
+		"psr-4": {
+			"push\\Jpush\\": "src/"
+		}
+	},
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
