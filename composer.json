@@ -3,7 +3,7 @@
 	"description": "jpush",
 	"homepage": "https://github.com/kevin021788/yii2-jpush",
 	"keywords": [
-		"jpush",
+		"jpush"
 	],
 	"minimum-stability": "dev",
 	"authors": [ 
