@@ -27,7 +27,6 @@ class Jpush extends Component
     public function init()
     {
         parent::init();
-        dd($this);
         if(empty($this->app_key) || empty($this->app_secret)) {
             throw new InvalidConfigException("app_key和app_secret必须设置");
         }
