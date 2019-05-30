@@ -16,7 +16,7 @@
 	],
 	"license": "MIT",
 	"require": {
-		"jpush/jpush": "*"
+		"jpush/jpush": "v3.6.3"
 	},
 	"autoload": {
 		"psr-4": {

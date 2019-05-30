@@ -11,6 +11,7 @@ namespace push\Jpush;
 use \Yii;
 use \yii\base\Component;
 use \yii\base\InvalidConfigException;
+use JPush\Client as JPushC;
 
 class Jpush extends Component
 {
@@ -30,7 +31,7 @@ class Jpush extends Component
         if(empty($this->app_key) || empty($this->app_secret)) {
             throw new InvalidConfigException("app_key和app_secret必须设置");
         }
-        $this->jpush = new \JPush($this->app_key, $this->app_secret);
+        $this->jpush = new JPushC($this->app_key, $this->app_secret);
     }
 
     public function __call($method, $args = [])
